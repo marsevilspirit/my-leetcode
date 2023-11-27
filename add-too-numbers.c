@@ -1,4 +1,3 @@
-#include <stdlib.h>
 struct ListNode* addTwoNumbers(struct ListNode* l1, struct ListNode* l2) {
     struct ListNode * list = (struct ListNode *)malloc(sizeof(struct ListNode));
     struct ListNode * current = list;
